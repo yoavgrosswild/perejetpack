@@ -5,6 +5,7 @@ import android.content.Context;
 import androidx.annotation.NonNull;
 import androidx.work.Worker;
 import androidx.work.WorkerParameters;
+import timber.log.Timber;
 
 /**
  * Created by Yoav G on 04/11/2018.
@@ -20,6 +21,7 @@ public class MyWorker extends Worker {
     @Override
     public Result doWork() {
 
+        Timber.e("worker works");
         
 
         return Result.SUCCESS;
