@@ -8,7 +8,7 @@ public class MyViewModel extends ViewModel {
     private WorkManager workManager;
 
     public MyViewModel(WorkManager workManager){
-        
+
     }
 
 }
